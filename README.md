@@ -5,6 +5,8 @@ This library provides a view - KeyboardStrutView - that adapts its size to the k
 It can be used as a dynamic strut to control the overall layout
 by placing the other views relative to the KeyboardStrutView.
 
+https://user-images.githubusercontent.com/11477595/146223574-19e4ae96-17f9-46b0-9611-07ecb4b923af.mov
+
 ## Example
 
 Let's say there's a form with a text field that is shown at the bottom of the screen like this:
