@@ -5,11 +5,13 @@ public final class KeyboardStrutView: UIView {
 
     public required init?(coder: NSCoder) {
         super.init(coder: coder)
+        self.setContentCompressionResistancePriority(.required, for: .vertical)
         self.subscribeToNotifications()
     }
 
     public override init(frame: CGRect) {
         super.init(frame: frame)
+        self.setContentCompressionResistancePriority(.required, for: .vertical)
         self.subscribeToNotifications()
     }
 
